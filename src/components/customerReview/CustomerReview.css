@@ -1,0 +1,26 @@
+
+
+.customerReview{
+height: 100vh;
+width: auto;
+background-image: url('../../images/homeImage.jpg');
+background-position: center;
+background-size: cover;
+}
+.customerReview_row{
+    display: flex;
+    flex-direction: row;
+    justify-content:center
+}
+.card{
+    width: 25%;
+    height: 450px;
+    background: #0b3e35;
+    color:white;
+    margin:0 1rem 0 1rem;
+    border-radius: 1rem;
+}
+.card img{
+    width: 100px;
+    margin:2rem auto 2rem auto;
+}

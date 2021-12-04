@@ -1,0 +1,49 @@
+.plantsCategory{
+    height: 100vh;
+    width: auto;
+
+}
+
+.plantsCategory_row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+.plantsCategory_row div{
+    width: 25%;
+    height: 450px;
+    overflow:hidden
+}
+.plantsCategory_row div:hover .cateDetails{
+    cursor: pointer;
+    display: block
+}
+.cateDetails{
+    position: relative;
+    color:white;
+
+}
+.images{
+    width: 100%;
+    height:100%;
+    border-radius: .5rem;
+}
+.cateName{
+    background: #0b3e35;
+    color:white;
+    padding:1rem;
+    width: 60%;
+    position: relative;
+    top:-400px;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+.cateDetails{
+    position: relative;
+    top:-200px;
+    background: #285d54;
+    padding: 2rem;
+display: none;
+transition: 1s;
+}

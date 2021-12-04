@@ -1,23 +1,25 @@
-import logo from './logo.svg';
+import React from 'react'
+
 import './App.css';
+import About from './components/About/About';
+import CustomerReview from './components/customerReview/CustomerReview';
+import Footer from './components/Footer/Footer';
+import Header from './components/header/Header';
+import Home from './components/home/Home';
+import PlantsCategory from './components/PlantsCatgory/PlantsCategory';
+
 
 function App() {
+
+  //none responsive
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Home />
+      <About />
+      <PlantsCategory />
+      <CustomerReview />
+      <Footer />
     </div>
   );
 }
